@@ -1,0 +1,22 @@
+Monitoring Application Logs With ELK Stack
+Introduction:
+ELK Stack is the leading open-source IT log management solution for companies who want the benefits of a centralized logging solution without the enterprise software price of CAMU Application. Elasticsearch, Logstash, and Kibana, when used together, form an end-to-end stack (ELK Stack) and real-time data analytics tool that provides actionable insights from CAMU Containers to almost any type of structured and unstructured data source. Here's a brief overview of each component and where you can find documentation for them:
+1.	Elasticsearch: Elasticsearch is a distributed, RESTful search and analytics engine designed for horizontal scalability, reliability, and real-time search.
+2.	Logstash: Logstash is a server-side data processing pipeline that ingests data from multiple sources, transforms it, and then sends it to your favorite "stash" for storage or further analysis.
+3.	Kibana: Kibana is a powerful data visualization and exploration tool for analyzing large volumes of data stored in Elasticsearch. You can visualize your Elasticsearch data and navigate through the Elastic Stack with Kibana.
+Prerequisites
+Ensure that the following prerequisites are met Before installing ELK, ensure you have the following prerequisites:
+1.	CAMU Kubernetes Cluster
+2.	Helm v3 installed
+Aggregate logs of  IMS-Frontend Container
+Analyze and visualize of  IMS-Frontend Container logs: Elasticsearch is used as the underlying engine for platforms that perform complex text search, logging, or real-time advanced analytics operations of the CAMU IMS UI Container within a Kubernetes cluster. The main purpose of this is to aggregate logs for debugging purposes. ELK stack helps aggregate these logs and explore through those logs of the CAMU IMS UI Container within a Kubernetes cluster.
+ 
+Aggregate logs of  IMS-Frontend Container
+Analyze and visualize of  IMS-Backend Container logs: Elasticsearch is used as the underlying engine for platforms that perform complex text search, logging, or real-time advanced analytics operations of the CAMU IMS Backend Container within a Kubernetes cluster. The main purpose of this is to aggregate logs for debugging purposes. ELK stack helps aggregate these logs and explore through those logs of the CAMU IMS Backend Container within a Kubernetes cluster.
+ 
+Aggregate logs of  DMS-Frontend Container
+Analyze and visualize of  DMS-Frontend Container logs: Elasticsearch is used as the underlying engine for platforms that perform complex text search, logging, or real-time advanced analytics operations of the CAMU DMS UI Container within a Kubernetes cluster. The main purpose of this is to aggregate logs for debugging purposes. ELK stack helps aggregate these logs and explore through those logs of the CAMU DMS UI Container within a Kubernetes cluster.
+ 
+Aggregate logs of  DMS-Backend Container
+Analyze and visualize of  DMS-Backend Container logs: Elasticsearch is used as the underlying engine for platforms that perform complex text search, logging, or real-time advanced analytics operations of the CAMU DMS Backend Container within a Kubernetes cluster. The main purpose of this is to aggregate logs for debugging purposes. ELK stack helps aggregate these logs and explore through those logs of the CAMU DMS Backend Container within a Kubernetes cluster.
+ 
